@@ -1,6 +1,6 @@
 FROM node:20
 WORKDIR /app
-COPY app/ .
+COPY . .
 RUN npm install
 EXPOSE 3000
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
