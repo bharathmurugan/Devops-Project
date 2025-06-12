@@ -111,4 +111,6 @@ Source: GitHub (Webhooks or Poll SCM)
 
 Credentials: Docker Hub & GitHub
 
+Trigger: On code push or manual trigger
+
 
